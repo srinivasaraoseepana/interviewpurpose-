@@ -8,10 +8,21 @@ import HookFormWithZod, {
   RecursiveStructure,
 } from "./project1/RecursiveStructure";
 import { courses } from "./project1/recursiveData";
-import TheatreMovieData from "./project3/TheatreMovieData";
+import TheatreMovieData from "./project3/PracticeEx";
 
+import PracticeEx from "./project3/PracticeEx";
+
+import OrdersList from "./project4/OrdersListPagination";
 interface Props {}
 
+const orders = [
+  { id: 1, name: "Mahesh", product: "Laptop" },
+  { id: 2, name: "Namrata", product: "Phone" },
+  { id: 3, name: "Goutam", product: "Shoes" },
+  { id: 4, name: "Sitara", product: "Laptop" },
+  { id: 5, name: "Ajay", product: "Phone" },
+  { id: 6, name: "Laya", product: "Shoes" },
+];
 const PlayGround = (props: Props) => {
   return (
     <div>
@@ -20,7 +31,8 @@ const PlayGround = (props: Props) => {
       {/* <States/> */}
       {/* <FormWithHookForm /> */}
       {/* <RecursiveStructure data={courses} /> */}
-      <TheatreMovieData />
+      {/* <PracticeEx /> */}
+      <OrdersList data={orders} />
     </div>
   );
 };

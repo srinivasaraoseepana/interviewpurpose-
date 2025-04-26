@@ -1,16 +1,7 @@
 import { theatres } from "./theatreData";
 type Props = {};
 
-const TheatreMovieData = (props: Props) => {
-  //   const rating = theatres.map((theatre) => {
-  //     const filterMovies = theatre.movies.filter((movie) => movie.rating > 4);
-  //     console.log("filterMovies are", filterMovies);
-  //     return filterMovies;
-  //   });
-  //   console.log("rating movies are ", rating);
-  //   const flatRating = rating.flat();
-  //   console.log("flatRating", flatRating);
-
+const PracticeEx = (props: Props) => {
   const items = [
     "samsung",
     "hero",
@@ -195,4 +186,4 @@ const TheatreMovieData = (props: Props) => {
   return <div>{}</div>;
 };
 
-export default TheatreMovieData;
+export default PracticeEx;
