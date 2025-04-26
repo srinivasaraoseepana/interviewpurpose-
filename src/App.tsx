@@ -11,8 +11,8 @@ import DebouncePlayGround from "./DebouceAndInterSection/DebouncePlayGround";
 const App = () => {
   return (
     <div>
-      {/* <PlayGround /> */}
-      <DebouncePlayGround />
+      <PlayGround />
+      {/* <DebouncePlayGround /> */}
 
       {/* <Provider store={store}>
         <PlayGround2 />

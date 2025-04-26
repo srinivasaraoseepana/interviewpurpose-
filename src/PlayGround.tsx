@@ -13,6 +13,7 @@ import TheatreMovieData from "./project3/PracticeEx";
 import PracticeEx from "./project3/PracticeEx";
 
 import OrdersList from "./project4/OrdersListPagination";
+import ProductSearch from "./DummyInputsSearch/ProductSearch";
 interface Props {}
 
 const orders = [
@@ -32,7 +33,8 @@ const PlayGround = (props: Props) => {
       {/* <FormWithHookForm /> */}
       {/* <RecursiveStructure data={courses} /> */}
       {/* <PracticeEx /> */}
-      <OrdersList data={orders} />
+      {/* <OrdersList data={orders} /> */}
+      <ProductSearch />
     </div>
   );
 };
