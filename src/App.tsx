@@ -7,11 +7,13 @@ import { store } from "./kwikpaymultistep/redux/store";
 import MultiStepForm from "./project2/playGround3";
 import PlayGround from "./PlayGround";
 import DebouncePlayGround from "./DebouceAndInterSection/DebouncePlayGround";
+import TasksPlayGround from "./TaskApp/TasksPlayGround";
 
 const App = () => {
   return (
     <div>
-      <PlayGround />
+      {/* <PlayGround /> */}
+      <TasksPlayGround/>
       {/* <DebouncePlayGround /> */}
 
       {/* <Provider store={store}>
